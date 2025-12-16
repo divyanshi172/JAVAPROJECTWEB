@@ -10,7 +10,7 @@ import com.example.demo.dto.RegisterRequest;
 import com.example.demo.dto.loginRequest;
 import com.example.demo.model.UserModel;
 import com.example.demo.repository.UserRepository;
-import com.example.demo.util.JwtUtil; // Inferred import
+import com.example.demo.security.JwtUtil; // Inferred import
 
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
