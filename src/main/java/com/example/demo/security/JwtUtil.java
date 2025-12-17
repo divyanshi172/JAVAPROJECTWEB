@@ -16,10 +16,11 @@ import java.util.Date;
 
 @Component
 public class JwtUtil {
-
+// key?
     private final Key key;
     private final long expiration;
-
+// while creating the token we have to do expiration date also 
+//
     public JwtUtil(@Value("${jwt.secret}") String secret, 
                    @Value("${jwt.expiration}") long expiration) {
         this.key = Keys.hmacShaKeyFor(secret.getBytes());
