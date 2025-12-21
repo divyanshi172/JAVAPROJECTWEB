@@ -16,7 +16,7 @@ import java.util.Date;
 
 @Component
 public class JwtUtil {
-// key?
+// key is an interface ?
     private final Key key;
     private final long expiration;
 // while creating the token we have to do expiration date also 
